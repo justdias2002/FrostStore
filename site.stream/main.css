@@ -1,4 +1,63 @@
+html {
+background-color: #d4cdc5;
+
+}
+
+h1{
+margin-left: 600px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.card {
+    width: 250px; 
+    border: 1px solid #243a69; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 555px;
+    background-color: #f4f4f2;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.card img {
+    width: 100%; 
+    height: auto; 
+}
+
+.card-content {
+    padding: 20px; 
+}
+
+.card-content h3 {
+    margin-top: 0; 
+}
+
+.card-content p {
+    margin-bottom: 15px; 
+}
+
+.card-content a {
+    display: grid; 
+    padding: 8px 16px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+}
+
+.card-content a:hover {
+    background-color: #0056b3; 
+}
+
+
 img {
+
 width: 160px;
 height: auto;
 
@@ -6,19 +65,19 @@ height: auto;
 
 .planos-button {
     color: rgb(255, 255, 255);
-    display: block;
+    display: grid;
     position: fixed; 
     top: 20px; 
     right: 20px; 
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #243a69;
     border-radius: 6px;
     text-decoration: dashed;
     transition: background-color 0.3s ease; 
 }
 
 .planos-button:hover {
-    background-color: cyan; 
+    background-color: #5b88a5; 
 }
 .contact-button {
     color: rgb(255, 255, 255);
@@ -27,26 +86,26 @@ height: auto;
     top: 20px; 
     left: 81%; 
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color:#243a69;
     border-radius: 6px;
     text-decoration: dashed;
     transition: background-color 0.3s ease; 
 }
 
 .contact-button:hover {
-    background-color: cyan; 
+    background-color: #5b88a5; 
 }
 
 
 .planos-button:hover {
-    background-color: #0056b3; 
+    background-color: #5b88a5; 
 }
 
 .cta-button {
     
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #243a69;
     color: #fff; 
     text-decoration: dashed; 
     border-radius: 5px; 
@@ -54,5 +113,20 @@ height: auto;
 }
 
 .cta-button:hover {
-    background-color: #0056b3; 
+    background-color: #5b88a5; 
+}
+
+.wppchamado {
+    display: inline-block;  
+}
+
+.wppchamado img {
+    width: 60px; 
+    height: auto; 
+    border-radius: 50%; 
+    border: 2px solid #ffffff;
+}
+
+.wppchamado img:hover {
+    transform: scale(1.1); 
 }
