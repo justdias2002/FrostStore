@@ -1,0 +1,58 @@
+img {
+width: 160px;
+height: auto;
+
+}
+
+.planos-button {
+    color: rgb(255, 255, 255);
+    display: block;
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 6px;
+    text-decoration: dashed;
+    transition: background-color 0.3s ease; 
+}
+
+.planos-button:hover {
+    background-color: cyan; 
+}
+.contact-button {
+    color: rgb(255, 255, 255);
+    display: block;
+    position: fixed; 
+    top: 20px; 
+    left: 81%; 
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 6px;
+    text-decoration: dashed;
+    transition: background-color 0.3s ease; 
+}
+
+.contact-button:hover {
+    background-color: cyan; 
+}
+
+
+.planos-button:hover {
+    background-color: #0056b3; 
+}
+
+.cta-button {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff; 
+    text-decoration: dashed; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.cta-button:hover {
+    background-color: #0056b3; 
+}
