@@ -8,53 +8,22 @@ margin-left: 600px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
-.card {
-    width: 250px; 
-    border: 1px solid #243a69; 
-    border-radius: 10px; 
-    overflow: hidden; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-left: 555px;
-    background-color: #f4f4f2;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    
-}
-.card img {
-    width: 100%; 
-    height: auto; 
+.cordel {
+    display: flex;
 }
 
-.card-content {
-    padding: 20px; 
+.card{
+    border-radius: 50px;
+    transition: .3s all ease;
+    flex: 1;
+    height: 200px;
+    background-color: #5b88a5;
 }
 
-.card-content h3 {
-    margin-top: 0; 
+.card:hover {
+    flex: 2;
+    background-color: #243a69;
 }
-
-.card-content p {
-    margin-bottom: 15px; 
-}
-
-.card-content a {
-    display: grid; 
-    padding: 8px 16px;
-    background-color: #007bff; 
-    color: #fff; 
-    text-decoration: none; 
-    border-radius: 4px; 
-    transition: background-color 0.3s; 
-}
-
-.card-content a:hover {
-    background-color: #0056b3; 
-}
-
 
 img {
 
