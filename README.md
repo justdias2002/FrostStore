@@ -1,2 +1,2 @@
 # FrostStore
- Uma loja de Streaming
+ Uma ladding page de uma loja de venda de contas de streaming
